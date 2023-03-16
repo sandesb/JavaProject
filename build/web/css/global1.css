@@ -1,0 +1,28 @@
+:root {
+  /* fonts */
+  --font-jaldi: Jaldi;
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-sm: 20px;
+  --font-size-base: 36px;
+  --font-size-lg: 40px;
+  --font-size-xl: 43px;
+  --font-size-2xl: 64px;
+
+  /* Colors */
+  --color-gray: #040714;
+  --color-white: #fff;
+  --color-steelblue: #495579;
+  --color-ivory-100: #fffbeb;
+  --color-ivory-200: rgba(255, 251, 235, 0.76);
+  --color-darkgray: #9c9c9c;
+
+
+  /* Paddings */
+  --padding-sm: 21px;
+  --padding-md: 27px;
+
+  /* border radiuses */
+  --br-md: 15px;
+}

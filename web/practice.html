@@ -1,0 +1,248 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/js/bootstrap.css">
+
+
+
+  <style>
+    body {
+      height: 500px;
+      /* text-align: center; */
+      background-color: azure;
+    }
+
+    h1 {
+      font-size: 5.625rem;
+      margin: 50px auto 0 auto;
+
+    }
+
+    .p1 {
+      padding-top: 100px;
+      font-family: Arial;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: burlywood;
+      color: #66bfbf;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .p2 {
+      font-family: Arial;
+      font-size: 20px;
+      text-decoration: burlywood;
+      color: #66bfbf;
+
+    }
+
+    .new1 {
+      height: 10px;
+    }
+
+    .profile {}
+
+    .top-container {}
+
+    .middle-container {}
+
+    .container {}
+
+    .n {}
+
+    .bottom-container {}
+
+    .img1 {
+      padding-top: 20px;
+    }
+
+    .img2 {
+      position: absolute;
+      top: 220px;
+      left: 340px;
+
+
+    }
+
+    .img3 {
+      position: absolute;
+      top: 50px;
+      left: 780px;
+
+    }
+
+    .img4 {
+      width: 100px;
+      float: right;
+      margin-left: 30px;
+      margin-bottom: 30px;
+    }
+
+    .para1 {
+      background-color: red;
+      display: inline-block;
+      width: 120px;
+    }
+
+    .para2 {
+      background-color: yellow;
+      display: inline-block;
+      width: 120px;
+    }
+
+    .para3 {
+      font-style: italic;
+      display: block;
+
+    }
+
+    .para3:hover {
+      display: none;
+
+    }
+
+    .skill-row {
+      width: 50%;
+      margin: 100px auto 100px auto;
+      text-align: left;
+      line-height: 2;
+    }
+
+    .img {
+      width: 100px;
+      float: left;
+      margin-right: 30px;
+      margin-bottom: 30px;
+    }
+
+    .clear-desc {
+      clear: left;
+    }
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    #navbar {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="p1">hello</div>
+  <nav id="navbar" class="navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <p class="p1">Hello I'm Sandesh</p>
+  <p class="p2">and I'm <span style="text-decoration: underline;">kinda</span> tired.</p>
+
+
+
+  <div class="middle-container">
+    <div class="profile">
+      <img style="width: 100px; padding-top: 20px;" src="img/sun.png" alt="">
+      <h2>Hello.</h2>
+      <p class="new1">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla
+        distinctio.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="img" src="img/sun.png" alt="">
+        <h3>Lorem & Ipsum</h3>
+        <p class="clear-desc">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc
+          urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row">
+        <img class="img4" src="img/sun.png" alt="">
+        <h3>Lorem Ipsum Dolor</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
+          Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p>© 2018 Name Surname.</p>
+  </div>
+
+  <script>
+    window.onscroll = function () { myFunction() };
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    function myFunction() {
+      console.log("window" + window.pageYOffset)
+      console.log(sticky)
+      if (window.pageYOffset >= sticky) {
+        navbar.style.position = "fixed"
+        navbar.style.top = 0
+        navbar.style.width = 100 + "%"
+      } else {
+        navbar.style.position = "relative"
+      }
+    }
+  </script>
+
+
+</body>
+
+</html>
